@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function YouTubeEmbedCodeGenerator() {
-  const [apiKey, setApiKey] = useState("AIzaSyAEePtXyZ16cHL_Hty0xTj5wK8x5mydbfE");
+  const [apiKey, setApiKey] = useState("IzaSyAEePtXyZ16cHL_Hty0xTj5wK8x5mydbfE");
   const [videoUrl, setVideoUrl] = useState("https://www.youtube.com/watch?v=3wEzEip35Pw");
   const [codeSnippet, setCodeSnippet] = useState("");
   const [copySuccess, setCopySuccess] = useState(false);
