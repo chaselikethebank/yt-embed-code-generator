@@ -64,7 +64,7 @@ function YouTubeEmbedCodeGenerator() {
         <input
           type="text"
           value={apiKey}
-          onChange={(e) => setApiKey(e.target.value)}
+          onChange={(e) => setApiKey(e.target.value) }
         />
       </div>
       <div>
